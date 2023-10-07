@@ -1,0 +1,47 @@
+
+#paral {
+    font-family: courier;
+    text-align: center;
+    color: blue;
+}
+
+.normal{
+  text-align: center;
+  color: red;  
+}
+h1.change {
+    text-align: center;
+    color: aqua;
+    font-family: arial;
+    font-style: italic;
+    font-weight:numeric_weight_value;
+    background-color: #e2095c;
+}
+
+body {
+    color: green;
+}
+
+nav{
+    background-color: white;
+    padding: 10px;
+
+}
+
+a {
+    color: purple;
+    margin: 40px
+}
+
+.social {
+    color:white;
+    margin: 40px;
+    padding: 20px;
+}
+
+footer {
+    color: black;
+}
+ p {
+    font-family: fantasy;
+ }
