@@ -4,11 +4,10 @@ body {
     background-color: #fcfcfc; 
 }
 
-
 header {
     background-color: #F4C095
 }
-nav a {
+nav a {	
     text-align: center;
     background-color: #fcfcfc;
     text-decoration: none;
@@ -85,3 +84,4 @@ main section {
 .icon {
     width: 80px;
 }
+
