@@ -1,6 +1,13 @@
 body {
-    
     background-color: #fcfcfc; 
+    font-size: 22px; 
+    font-family: Raleway, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+
 }
 
 header {
@@ -8,22 +15,24 @@ header {
 }
 nav a { 
     text-align: center;
-    background-color: #fcfcfc;
+    color: #600feb;
     text-decoration: none;
+    padding: 35px;
 }
 #content {
     background-color: #3085C3;
     max-width: 1600px;
     margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-right: auto;
 }
 nav a:hover {
     color: #B2533E;
 }
 .home-title {
+    font-family: Georgia, 'Arial', Helvetica; 
+    font-size: 2em;
     color: #132043;
+    margin-top: 10px;
 }
 h4 {
     color:#088395
@@ -31,29 +40,48 @@ h4 {
 
 .book, .join{
     background-color: #B5CB99;
-        text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+        
 }
 .book:hover, .join:hover{
     background-color:#3085C3;
 }
-#background{
-    background-color:#088395;
-    height: 50px;
-}
+
 .msg{
+    background-color: #186F65;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 35px;
+    margin-top: 100px;
+    color: white
     
-     background-color: #186F65;
-     font-size: 1.2em;
-     color: white
+     
      
 }
+ .msg p {
+    padding-bottom: 15px;
+ }  
+     
+     
 .msg h2{
+    
     color: red;
 }
 
 footer {
+    margin-top: 200px;
+    padding: 25px 50px;
     text-align: left;
     background-color:#B2533E
+    
+}
+.social {
+    padding-top: 15px;
 }
 footer p {
     font-size: 1.4em; 
@@ -63,7 +91,19 @@ footer p {
 #background {
     height: 725px;
     background-color: rgb(184, 190, 190);
+    margin-bottom: 100px;
 
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}  
+.card-img {
+    border: 10px; border: solid black;
+}
+ 
+main section img {
+    box-sizing: border-box;
 }
 
 #hero-msg h1,#hero, #hero-msg h4{
@@ -79,9 +119,13 @@ main section {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 
