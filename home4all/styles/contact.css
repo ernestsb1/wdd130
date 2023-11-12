@@ -1,0 +1,157 @@
+
+
+
+
+nav a { 
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(98, 95, 95);
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font: 2em;
+}
+nav a:hover {
+    color: blue;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: -200px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#content {
+    background-color: #c33041;
+    max-width: 1600px;
+    margin-top: 0;
+    margin-right: auto;
+
+}
+
+#background {
+    margin-top: 30px;
+    height: 500px;
+    background-color: brown;
+
+
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: -250px;
+    color:white ;
+    text-align: center;
+
+}
+#main-img {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.home-title {
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.g {
+    display: grid;
+    grid-template-columns: repeat, 1fr;  
+}
+
+.get {
+    margin: 100px 0;
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.camping-card{
+    margin: 100px 0;
+    grid-column: 5/7;
+    grid-row: 1/5;
+}
+ 
+h2 {
+    color: blue;
+}
+
+h4{ 
+    font-size: 2em;
+    text-align: center;
+
+}
+#v-img {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 5px; border: solid black;
+    width: 60%; 
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#w-img {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.o {
+    font-size: 2em;
+    color: red;
+}
+.co {
+    background-color: brown;
+    
+    text-align: center;
+    font-size: 2em;
+    font-family: "Brush Script MT", cursive;
+    color: azure;
+
+}
+.j {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.button-box :hover {
+    color: red ;
+}
+.j :hover {
+    color: yellow;
+}
+.our {
+    color: yellow;
+    background-color: grey;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 25px 50px;
+    text-align: left;
+    background-color:#B2533E
+    
+    
+}
+.social {
+    padding-top: 15px;
+}
+footer p {
+    font-size: 1.4em; 
+    color: white;  
+}
