@@ -39,15 +39,26 @@
 </div>
 <main class="home-grid">
     <section class="rivers-card">
-        <h2>CONTACT US</h2>
-        <h2>Drop Us A Line</h2>
-        <form action="/url" method="GET">
-            <p>Please enter Name:</p>
-            <input type="text">
-            <p>Please enter Email:</p>
-            <input type="text">
-            <p>Please enter Number No:</p>
-            <input type="text">
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+              </li>
+            </ul>
+          </form>
+
 
        
         
