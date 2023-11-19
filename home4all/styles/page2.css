@@ -1,0 +1,203 @@
+
+
+
+
+nav a { 
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(98, 95, 95);
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font: 2em;
+}
+nav a:hover {
+    color: blue;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: -200px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#content {
+    background-color: #c33041;
+    max-width: 1600px;
+    margin-top: 0;
+    margin-right: auto;
+
+}
+
+.home-title {
+    color: red;
+    text-align: center;
+    font-size: 3em;
+}
+
+.r {
+    
+    color: blue;
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+.fus{
+    background-color: aqua;
+    text-align: center;
+}
+.ip {
+    display: grid;
+    grid-template-columns: repeat, 1fr;  
+}
+ .im{
+    grid-column:4/6 ;
+    grid-row:3/6 ;
+ }
+
+ .out {
+    background-color: aquamarine;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+ .bb {
+    font-family: cursive;
+    font-size: 1.3em;
+    color: black;
+ }
+
+.f {
+    background-color: #c33041;
+    color: white;
+    font-size: 2em;
+}
+.k {
+    background-color: aqua;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+h3 {
+    font-size: 2em;
+    margin-top: -350px;
+    color:white ;
+    text-align: center;
+
+}
+#main-img {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.g {
+    display: grid;
+    grid-template-columns: repeat, 1fr;  
+}
+
+.get {
+    margin: 100px 0;
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.camping-card{
+    margin: 100px 0;
+    grid-column: 5/7;
+    grid-row: 1/5;
+}
+ 
+h2 { font-size: 2em;
+    color: blue;
+}
+.get {
+    text-align: center;
+}
+h4{ 
+    font-size: 2em;
+    text-align: center;
+
+}
+#v-img {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 5px; border: solid black;
+    width: 60%; 
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#w-img {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.im { width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+    
+
+
+.o {
+    font-size: 2em;
+    color: red;
+}
+.co {
+    background-color: brown;
+    
+    text-align: center;
+    font-size: 2em;
+    font-family: "Brush Script MT", cursive;
+    color: azure;
+
+}
+.j {
+
+    font-size: 1.30em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+}
+.button-box :hover {
+    color: red ;
+}
+.j :hover {
+    color: yellow;
+}
+.our {
+    color: yellow;
+    background-color: grey;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 25px 50px;
+    text-align: left;
+    background-color:#B2533E
+    
+    
+}
+.social {
+    padding-top: 15px;
+}
+footer p {
+    font-size: 1.4em; 
+    color: white;  
+}

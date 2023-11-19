@@ -98,6 +98,26 @@ p {
   background-color: var(--accent2-color);
 }
 
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  padding: 25px 50px;
+  text-align: left;
+  background-color:#B2533E
+  
+  
+}
+.social {
+  padding-top: 15px;
+}
+footer p {
+  font-size: 1.4em; 
+  color: white;  
+}
+
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
