@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 .colored {
-    background-color: gray;
+    background-color: #BA5959;
     
     text-align: center;
     font-size: 2em;
@@ -70,31 +70,69 @@ nav a:hover {
 
 
 .clear {
-    border: 5px; border: solid black;
-    width: 50%; 
+
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 20px;
+    
+    grid-column: 2/5;
+    grid-row:5/8;
+    width: 35%;
+    border: 5px; border: solid yellow;
+    
     transition: transform .1s;
     box-shadow: 5px 5px 10px #6f7364;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom:-200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
 }
 .clear:hover {
     opacity: .6;
     transform: scale(1.1);
 
 }
+
+.water-img {
+    margin-left: 250px;
+    margin-top: -200px;
+    transition: transform .1s;
+    grid-column: 5/8;
+    grid-row:4/8;
+    width: 25%;
+    border: 5px; border: solid yellow;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px #6f7364;
+
+
+}
+
+
+  
+
+
+
 #man{
     text-align: center;
 }
 h4 {
     font-size: 2em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color:#749508;
+    color: #2480E3;
 }
     
   .donate {
     margin-top: 0;
 
  }  
+
+ .d {
+    margin-bottom: -200;
+    text-align: center;
+    color: #e12929;
+ }
 
  p {
     font-size: 1.5em;
@@ -112,9 +150,12 @@ h4 {
 }
 
 .t {
+    
+    margin-bottom: -1000;
     background-color: #749508;
     text-align: center;
     color: white
+    
     
 }
 .c {
@@ -133,23 +174,46 @@ h4 {
 }
 
 
-
  .msg p {
     padding-bottom: 15px;
  }  
 
  .join1 {
-    border: 5px; border: solid black;
-    width: 60;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
- }
- .join {
-    align-content: center;
     
+    width: 42%;
+    margin: 200px 0;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-right: 50px;
+    border: 5px; border: solid black;
+    transition: transform 1s;
+    box-shadow: 5px 5px 10px #6f7364;
+
+    
+   
+
+
+   
+ }
+
+ .join3 {
+
+    width: 26%;
+    margin: 200px 0;
+    grid-column: 5/8;
+    grid-row: 2/3;
+    margin-left: 50px;
+    border: 5px; border: solid darkblue;
+    
+   
+    
+ }
+
+
+ 
+ .join2 {
+    text-align: center;
+    font-size: 1em;
  }   
      
 .msg h2{
@@ -175,7 +239,10 @@ h4 {
     width: 80%;
     margin-top: 200px;
     margin-bottom: 200px;
+    box-shadow: 5px
 }
+
+
 footer {
     display: flex;
     justify-content: space-around;
