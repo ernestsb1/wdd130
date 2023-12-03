@@ -38,7 +38,7 @@ nav a:hover {
 #background {
     margin-top: 30px;
     height: 500px;
-    background-color: brown;
+    background-color: #2480E3;
 
 
 }
@@ -69,17 +69,74 @@ h3 {
 }
 
 .get {
-    margin: 100px 0;
+    margin: 200px 0;
     grid-column: 2/4;
     grid-row: 1/5;
 }
 
+p{
+    font-size: 1.5em;
+}
+
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+.y {
+    color: #BA5959;
+}
+
 .camping-card{
+    display: grid;
+    grid-template-columns:  1fr; 
     margin: 100px 0;
     grid-column: 5/7;
     grid-row: 1/5;
 }
  
+.card-img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 30.33%;
+    padding: 10px;
+  }
+
 h2 {
     color: blue;
 }
