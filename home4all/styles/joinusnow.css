@@ -418,6 +418,10 @@ main section {
 }
 .po {
     text-align: center;
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
@@ -429,4 +433,7 @@ main section {
     margin-left: 800px;
     margin-bottom: 50px;
     margin-top: -600px;
+}
+.op {
+    font-family: cursive;
 }

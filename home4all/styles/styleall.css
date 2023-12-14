@@ -129,9 +129,10 @@ h4 {
  }  
 
  .d {
-    margin-bottom: -200;
+    background-color: #749508;
+    
     text-align: center;
-    color: #e12929;
+    color: white;
  }
 
  p {
@@ -156,12 +157,17 @@ h4 {
     text-align: center;
     color: white
     
-    
+}
+
+#her-msg {
+    background-color: antiquewhite;
+    margin-bottom: 20px;
 }
 .c {
     background-color: burlywood;
     font-family: cursive;
 }
+
 #child-img {
     
     border: 5px; border: solid black;
@@ -239,8 +245,17 @@ h4 {
     width: 80%;
     margin-top: 200px;
     margin-bottom: 200px;
-    box-shadow: 5px
+    
 }
+.pp, .pi {
+    width: 250px;
+    background-color: #e12929;
+    text-align: center;
+}
+.po {
+    background-color: #6f7364;
+}
+
 
 
 footer {

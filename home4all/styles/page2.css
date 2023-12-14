@@ -54,7 +54,7 @@ nav a:hover {
 }
 .ip {
     display: grid;
-    grid-template-columns: repeat, 1fr;  
+   
 }
  .im{
     grid-column:4/6 ;
@@ -101,7 +101,7 @@ h3 {
 
 .g {
     display: grid;
-    grid-template-columns: repeat, 1fr;  
+     
 }
 
 .get {
